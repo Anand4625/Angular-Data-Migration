@@ -1,0 +1,55 @@
+.footer{
+    inset: auto 0 0 0;
+    height: 50px;
+}
+.main{
+    height: calc(100vh - 120px);
+    .btn{
+        width: 200px;
+        height: 40px;
+    }
+}
+::ng-deep .canvas{
+    height: 100px !important;
+}
+.offcanvas-body{
+    .rocket-bg{
+        background: #0a58ca;
+        .launch{
+            height: 70px;
+            width: 70px;
+        }
+        &::after{
+            content: '';
+            display: block;
+            position: absolute;
+            top: 30%;
+            left: 15%;
+            border-top: 25px solid transparent;
+	        border-left: 50px solid #0a58ca;
+	        border-bottom: 25px solid transparent;
+        }
+    }
+    .pl-3{
+        padding-left: 3em;
+    }
+}
+.toggle-btn{
+    background: #0a58ca;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    color: #FFFF;
+}
+.toggle{
+    inset: -30px 22px auto auto;
+}
+.toggler{
+    inset: auto 22px 0px auto;
+    z-index: 100;
+}
+
+::ng-deep .toast-bottom-right{
+    bottom: 65px;
+}

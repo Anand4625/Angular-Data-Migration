@@ -1,0 +1,45 @@
+.main{
+    border-bottom: 1px solid #CACACA;
+    .list{
+        gap: 1em;
+        li{
+            list-style: none;
+            button{
+                font-size: 15px;
+            }
+        }
+    }
+    .list-a{
+        .logo{
+           img{
+            height: 70px;
+            cursor: pointer;
+           }
+        }
+    }
+    .list-b{
+        padding: 0 2em 0 0;
+        gap: 1.5em;
+        li{
+            cursor: pointer;
+        }
+        .country{
+            img{
+                height: 25px;
+                width: 25px;
+            }
+        }
+        img{
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .profilepic{
+            border: 1px solid #CACACA;
+            border-radius: 50%;
+            img{
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }
+}
